@@ -1,0 +1,78 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: "Helvetica, sans-serif";
+
+// Mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Functions
+@function calculate-rem($size) {
+  $rem-size: $size / 16px;
+  @return #{$rem-size}rem;
+}
+
+// Base styles
+body {
+  font-family: $font-stack;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+// Nested styles
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .header {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px;
+
+    h1 {
+      font-size: calculate-rem(32px);
+    }
+  }
+
+  .content {
+    background-color: white;
+    padding: 20px;
+    @include border-radius(10px);
+
+    p {
+      font-size: calculate-rem(16px);
+      line-height: 1.5;
+
+      &.highlight {
+        background-color: $secondary-color;
+        color: white;
+        padding: 5px;
+        @include border-radius(5px);
+      }
+    }
+  }
+}
+
+// Media queries
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+
+    .header {
+      h1 {
+        font-size: calculate-rem(24px);
+      }
+    }
+
+    .content {
+      padding: 10px;
+    }
+  }
+}

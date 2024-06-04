@@ -1,0 +1,21 @@
+{
+  "name": "vibrant-vommir",
+  "displayName": "Vibrant vommit",
+  "description": "A pitch black background and vibrant text colors which jump at you.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon vommit extra dark",
+        "uiTheme": "hc-black",
+        "path": "./themes/Neon-vommit-extra-dark-color-theme.json"
+      }
+    ]
+  }
+}

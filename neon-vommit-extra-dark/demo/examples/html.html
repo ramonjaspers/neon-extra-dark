@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example HTML</title>
+    <style>
+        /* This is a comment in CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        <p>This is an example HTML file.</p>
+        <p>This is a link: <a href="https://www.example.com" target="_blank">Visit Example</a></p>
+        <a href="#" class="button">Click Me</a>
+    </div>
+    <script>
+        // This is a comment in JavaScript
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Document is ready!');
+        });
+        function showAlert() {
+            alert('Button clicked!');
+        }
+
+        // Attach event listener to the button
+        document.querySelector('.button').addEventListener('click', showAlert);
+    </script>
+</body>
+
+</html>
