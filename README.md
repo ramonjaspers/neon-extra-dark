@@ -1,6 +1,9 @@
+<div align="center">
+
 # neon-vommit-extra-dark
 
-A pitch black and vibrant VSCode theme based on ghgofort his [Neon Vommit](https://github.com/ghgofort/vscode-neon-vommit-theme) theme.
+A pitch black and vibrant VSCode theme based on ghgofort his [Neon Vommit](https://github.com/ghgofort/vscode-neon-vommit-theme) theme. 
+Great for late night coding sessions.
 
 ## Installation
 
@@ -31,3 +34,5 @@ HTML:
 ![Example HTML](https://raw.githubusercontent.com/ramonjaspers/neon-vommit-extra-dark/master/demo/images/html.png)
 
 **Enjoy!**
+
+</div>
