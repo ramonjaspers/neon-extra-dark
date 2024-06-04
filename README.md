@@ -2,7 +2,7 @@
 
 # neon-vommit-extra-dark
 
-A pitch black and vibrant VSCode theme based on ghgofort his [Neon Vommit](https://github.com/ghgofort/vscode-neon-vommit-theme) theme. 
+A pitch black and vibrant VSCode theme based on ghgofort his [Neon Vommit](https://github.com/ghgofort/vscode-neon-vommit-theme) theme.
 Great for late night coding sessions.
 
 ## Installation
@@ -23,14 +23,12 @@ CommonJS Module:
 ReactNative:
 ![Example React JS](https://raw.githubusercontent.com/ramonjaspers/neon-vommit-extra-dark/master/demo/images/ReactNative.png)
 
-### CSS / SASS example:
+### SASS example:
 
-SASS:
 ![Example SASS](https://raw.githubusercontent.com/ramonjaspers/neon-vommit-extra-dark/master/demo/images/sass.png)
 
 ### HTML example:
 
-HTML:
 ![Example HTML](https://raw.githubusercontent.com/ramonjaspers/neon-vommit-extra-dark/master/demo/images/html.png)
 
 **Enjoy!**
