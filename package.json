@@ -17,5 +17,18 @@
         "path": "./themes/Neon-vommit-extra-dark-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramonjaspers/neon-vommit-extra-dark.git"
+  },
+  "homepage": "https://github.com/ramonjaspers/neon-vommit-extra-dark/blob/master/README.md",
+  "keywords": [
+    "vscode",
+    "theme",
+    "neon-vommit",
+    "neon-vommit-extra-dark",
+    "dark"
+  ],
+  "icon": "icon.png"
 }
