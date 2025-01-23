@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "vibrant-vommit" extension will be documented in this file.
+update! to v1.1.2
+## [v1.1.2] - 23-01-2025
+- Text fixes and readme updates
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [v1.1.0] - 4-6-2024
+- Stable version
 
-## [v0.0.1] - 2024-05-24
-
+## [v1.0.1] - 24-05-2024
 - Initial release
