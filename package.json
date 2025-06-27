@@ -1,8 +1,8 @@
 {
-  "name": "neon-vommit-extra-dark",
-  "displayName": "Neon vommit extra dark",
+  "name": "neon-extra-dark",
+  "displayName": "Neon extra dark",
   "description": "A pitch black background and vibrant text colors which are easy to distinguish",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -12,22 +12,23 @@
   "contributes": {
     "themes": [
       {
-        "label": "Neon vommit extra dark",
+        "label": "Neon extra dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/neon-vommit-extra-dark.json"
+        "path": "./themes/neon-extra-dark.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramonjaspers/neon-vommit-extra-dark.git"
+    "url": "https://github.com/ramonjaspers/neon-extra-dark.git"
   },
-  "homepage": "https://github.com/ramonjaspers/neon-vommit-extra-dark/blob/master/README.md",
+  "homepage": "https://github.com/ramonjaspers/neon-extra-dark/blob/master/README.md",
   "keywords": [
     "vscode",
     "theme",
-    "neon-vommit",
-    "neon-vommit-extra-dark",
+    "neon",
+    "extra-dark",
+    "neon-extra-dark",
     "dark"
   ],
   "publisher": "RamonJaspers",
