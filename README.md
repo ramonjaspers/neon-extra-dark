@@ -3,12 +3,12 @@
 # neon-vommit-extra-dark / neon-extra-dark
 
 A pitch black and vibrant VSCode theme based on Ghgofort his [Neon Vommit](https://github.com/ghgofort/vscode-neon-vommit-theme) theme.
-This team is great for late night coding sessions.
+This theme is great for late night coding sessions.
 
 ## Installation
 
 1. Launch VS Codequick open , paste the following command, and press enter.
-2. press `Ctrl+P` or `Cmd+P` and type
+2. press `Ctrl+P` or `Cmd+P` and type the following:
 
 ```bash
 ext install neon-vommit-extra-dark
